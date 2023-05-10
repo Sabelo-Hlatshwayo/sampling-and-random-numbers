@@ -30,6 +30,9 @@ paste("The number of distinct words that can be formed from all the letters in t
 # How many different subsets of 3 out of 5 exists?
 choose(5,3);
 
+# Exercise 8
+# List the complete sample space for the experiment in Exercise 7
+combn(5,3);
 
 
 

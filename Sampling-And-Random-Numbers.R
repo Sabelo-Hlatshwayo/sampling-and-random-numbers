@@ -91,4 +91,17 @@ rexp(3, 2);
 # Generate a random sample of size 3 from a a gamma distribution with shape 2 and rate 5
 rgamma(3, 2, 5);
 
+# Exercise 22
+# Let X~N(100, 144). Perform a simulation for the sampling distribution of the sample means
+# By repeating sampling 10000 times
+# Calculate the mean of the sample means
+# Calculate the standard deviation of the sample means
+# Draw a histogram of the sampling distribution of the sample means
+output = NULL;
+for (i in 1:10000) {
+  output[i] = mean(rnorm(n=25, mean=100, sd=12));
+}
 
+mean(output);
+sd(output);
+hist(output, breaks=20, freq=TRUE)

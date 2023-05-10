@@ -75,4 +75,8 @@ runif(2);
 # Generate a random sample of size 2 from a uniform distribution with min of 1 and max of 5
 runif(2, 1,5);
 
+# Exercise 18
+# Generate a random sample of size 1 from a standard normal distribution
+rnorm(1);
+
 

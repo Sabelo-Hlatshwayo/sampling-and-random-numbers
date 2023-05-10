@@ -49,10 +49,16 @@ sample(x=1:20, size=5, replace=FALSE);
 data = c(2, 7, 8, 10, 15, 17, 29);
 sample(x=data, size=5, replace=TRUE);
 
-# Exercise 11
+# Exercise 12
 # Select a random sample of 3 rows of the following data frame with the following columns, without replacement
 # (3,5,6,6,8), (12,6,4,23,25), (2,7,8,8,15)
 data = data.frame(x=c(3,5,6,6,8), y=c(12,6,4,23,25), z=c(2,7,8,8,15));
 data[sample(x=nrow(data), size=3, replace=FALSE),];
 
+# Exercise 13
+# Generate a random sample of size 3 from a Bernoulli distribution with probability of success p = 0.6
+rbinom(3, 1, 0.6);
 
+# Exercise 14
+# Generate a random sample of size 3 from a Binomial distribution with probability of success p = 0.6 of number of trials n = 4
+rbinom(3, 4, 0.6);

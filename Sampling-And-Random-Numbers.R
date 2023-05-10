@@ -20,3 +20,11 @@ paste("There are", 4 * 2, "different plans available to the buyer");
 # Exercise 5 
 # Determine the complete sample space for the in Exercise 4
 expand.grid(c("Design A", "Design B", "Design C", "Design D"), c("garage", "carport"));
+
+# Exercise 6
+# Determine he number of distinct words that can be formed from all the letters in the word “NARUTO”
+paste("The number of distinct words that can be formed from all the letters in the word 'NARUTO' is", factorial(6));
+
+
+
+

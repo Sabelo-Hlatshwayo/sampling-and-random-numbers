@@ -87,6 +87,8 @@ rnorm(4, 100, 15);
 # Generate a random sample of size 3 from an exponential distribution with rate 2
 rexp(3, 2);
 
-
+# Exercise 21
+# Generate a random sample of size 3 from a a gamma distribution with shape 2 and rate 5
+rgamma(3, 2, 5);
 
 

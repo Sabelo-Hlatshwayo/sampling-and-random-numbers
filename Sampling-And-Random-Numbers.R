@@ -83,4 +83,10 @@ rnorm(1);
 # Generate a random sample of size 4 from a normal distribution with mean 100 and standard deviation 15
 rnorm(4, 100, 15);
 
+# Exercise 20
+# Generate a random sample of size 3 from an exponential distribution with rate 2
+rexp(3, 2);
+
+
+
 

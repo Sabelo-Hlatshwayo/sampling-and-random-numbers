@@ -62,3 +62,9 @@ rbinom(3, 1, 0.6);
 # Exercise 14
 # Generate a random sample of size 3 from a Binomial distribution with probability of success p = 0.6 of number of trials n = 4
 rbinom(3, 4, 0.6);
+
+# Exercise 15
+# Generate a random sample of size 5 from a Poisson distribution with lambda = 4
+rpois(5, 4);
+
+

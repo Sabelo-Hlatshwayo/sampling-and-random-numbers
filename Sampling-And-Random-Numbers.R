@@ -39,4 +39,8 @@ combn(5,3);
 factorial(4) * choose(10, 4);
 
 
+# Exercise 10
+# Select a random sample of size 5 without replacement from a list of values from 1 to 20
+sample(x=1:20, size=5, replace=FALSE);
+
 

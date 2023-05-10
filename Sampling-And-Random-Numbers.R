@@ -104,4 +104,4 @@ for (i in 1:10000) {
 
 mean(output);
 sd(output);
-hist(output, breaks=20, freq=TRUE)
+hist(output, breaks=20, freq=FALSE)

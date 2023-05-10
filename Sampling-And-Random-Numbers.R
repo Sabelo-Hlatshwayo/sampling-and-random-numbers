@@ -34,5 +34,9 @@ choose(5,3);
 # List the complete sample space for the experiment in Exercise 7
 combn(5,3);
 
+# Exercise 9
+# What is the number of possible 4-digit pin numbers from a set of 10 numbers if duplication is not allowed
+factorial(4) * choose(10, 4);
+
 
 

@@ -16,3 +16,7 @@ expand.grid(1:6, c("H","T"));
 # A developer of a new subdivision offers a prospective home buyer a choice of 4 designs (A,B,C,D), and a garage or a carport. 
 # How many different plans are available to the buyer?
 paste("There are", 4 * 2, "different plans available to the buyer");
+
+# Exercise 5 
+# Determine the complete sample space for the in Exercise 4
+expand.grid(c("Design A", "Design B", "Design C", "Design D"), c("garage", "carport"));

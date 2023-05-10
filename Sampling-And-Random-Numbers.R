@@ -79,4 +79,8 @@ runif(2, 1,5);
 # Generate a random sample of size 1 from a standard normal distribution
 rnorm(1);
 
+# Exercise 19
+# Generate a random sample of size 4 from a normal distribution with mean 100 and standard deviation 15
+rnorm(4, 100, 15);
+
 

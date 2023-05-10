@@ -67,4 +67,12 @@ rbinom(3, 4, 0.6);
 # Generate a random sample of size 5 from a Poisson distribution with lambda = 4
 rpois(5, 4);
 
+# Exercise 16
+# Generate a random sample of size 2 from a standard uniform distribution
+runif(2);
+
+# Exercise 17
+# Generate a random sample of size 2 from a uniform distribution with min of 1 and max of 5
+runif(2, 1,5);
+
 

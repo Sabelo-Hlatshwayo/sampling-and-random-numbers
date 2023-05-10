@@ -25,6 +25,11 @@ expand.grid(c("Design A", "Design B", "Design C", "Design D"), c("garage", "carp
 # Determine he number of distinct words that can be formed from all the letters in the word “NARUTO”
 paste("The number of distinct words that can be formed from all the letters in the word 'NARUTO' is", factorial(6));
 
+# Exercise 7
+# 5 students applied to be tutors, and the lecturer randomly selects 3 of the 5.
+# How many different subsets of 3 out of 5 exists?
+choose(5,3);
+
 
 
 
